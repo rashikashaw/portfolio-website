@@ -7,7 +7,6 @@ import { SectionEnum } from '@/components/types';
 import { useEffect, useState } from 'react';
 import { HeroSection } from '../components/HeroSection';
 
-
 export default function Home() {
   const [selectedPage, setSelectedPage] = useState<SectionEnum>(SectionEnum.HOME);
   const [isTopOfPage, setIsTopOfPage] = useState(true);

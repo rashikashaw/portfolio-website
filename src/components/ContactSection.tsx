@@ -84,9 +84,9 @@ export const ContactSection = () => {
 
   return (
     <section id={SectionEnum.CONTACT} className="relative flex flex-col items-center justify-center min-h-full">
-      <div className="flex flex-col items-center mt-36 justify-center">
+      <div className="flex flex-col items-center lg:mt-36 justify-center">
         <h2 className="max-w-md text-4xl font-bold items-center justify-center lg:text-left">Contact</h2>
-        <div className="container flex flex-col mb-36 mt-16 justify-center items-center space-y-12 lg:space-y-0 lg:flex-row">
+        <div className="container flex flex-col mb-36 justify-center mt-12 items-center space-y-12 lg:space-y-0 lg:flex-row">
           <div className="space-y-10 lg:px-20 lg:w-1/2">
             <form onSubmit={onSubmit} className="rounded-lg flex flex-col px-8 py-8">
               <h1 className="text-2xl font-bold dark:text-gray-50">Send a message</h1>

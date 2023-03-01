@@ -32,21 +32,23 @@ const projects = [
 export const ProjectSection = () => {
   return (
     <section id={SectionEnum.PROJECTS} className="relative flex flex-col items-center min-h-full">
-      <h2 className="max-w-md text-4xl font-bold text-center lg:text-left">Projects</h2>
-      <div className="grid gap-x-8 ml-6 gap-y-8 sm:grid-cols-1  mt-28 mb-32 lg:grid-cols-2 xl:grid-cols-3">
-        {projects.map((project, i) => (
-          <ProjectCard 
-            key={i}
-            image={project.image} 
-            headline={project.headline}
-            summary={project.summary}
-            tags={project.tags}
-            link={project.link}
-            width={'w-96'}
-            githubLink={project.githubLink}
-            onCardClick={() => (project.link)}
-          />
-        ))}
+      <div className='flex flex-col items-center justify-center mx-auto lg:my-36'>
+        <h2 className="max-w-md text-4xl font-bold text-center lg:text-left">Projects</h2>
+        <div className="grid gap-x-8 gap-y-8 sm:grid-cols-1 mt-12 mb-32 lg:grid-cols-2 xl:grid-cols-3">
+          {projects.map((project, i) => (
+            <ProjectCard 
+              key={i}
+              image={project.image} 
+              headline={project.headline}
+              summary={project.summary}
+              tags={project.tags}
+              link={project.link}
+              width={'w-96'}
+              githubLink={project.githubLink}
+              onCardClick={() => (project.link)}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

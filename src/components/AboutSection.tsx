@@ -4,9 +4,9 @@ export const AboutSection = () => {
   const skills = ['Next.js', 'React', 'Typescript', 'Redux', 'Tailwind',' Nodejs', 'Express', 'REST API', 'MySql', 'MongoDB', 'Git', 'Jest'];
   return (
     <section id={SectionEnum.ABOUT} className="relative flex flex-col items-center min-h-full">
-      <div className="container flex flex-col-reverse mb-36 mt-20 lg:mt-48 space-y-12 lg:space-y-0 lg:flex-row">
+      <div className="container flex flex-col-reverse justify-center mb-36 mt-36 space-y-12 lg:space-y-0 lg:flex-row">
         {/* experince section */}
-        <div className="flex flex-col items-center lg:mt-0 space-y-8 lg:w-1/2">
+        <div className="flex flex-col items-center mt-20 lg:mt-0 space-y-8 lg:w-1/2">
           <div className="mb-8">
             <h2 className="max-w-md text-4xl font-bold text-center lg:text-left">Experience</h2>
           </div>
@@ -98,7 +98,7 @@ export const AboutSection = () => {
           </div>
         </div>
         {/* skills */}
-        <div className="flex flex-col items-center  space-y-12 lg:w-1/2">
+        <div className="flex flex-col items-center justify-start lg:w-1/2">
           <div className="mb-8">
             <h2 className="max-w-md text-4xl font-bold text-center lg:text-left">Skills</h2>
           </div>
