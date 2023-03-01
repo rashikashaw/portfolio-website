@@ -8,9 +8,9 @@ type HomeProps = {
 
 export const HeroSection = ({setSelectedPage}: HomeProps) => {
   return (
-    <section id={SectionEnum.HOME} className="relative flex flex-colmin-h-full">
-      <div className="container flex flex-col space-y-20 items-center pt-28 mb-28 lg:mb-28  mx-auto lg:space-y-0 lg:flex-row">
-        <div className="flex flex-col justify-center items-center space-y-12 md:w-1/2">
+    <section id={SectionEnum.HOME} className="relative flex flex-col h-full">
+      <div className="container flex flex-col space-y-20 items-center lg:items-start justify-center mt-36 mx-auto lg:space-y-0 lg:flex-row">
+        <div className="flex flex-col justify-center items-center space-y-12 lg:pt-6 lg:pl-24 md:w-1/2">
           <div className="space-y-12">
             <div className="space-y-2 px-16 lg:px-0">
               <h2 className="max-w-lg font-bold mt-2 text-center md-4 lg:text-left">Hi, I am</h2>
@@ -33,7 +33,7 @@ export const HeroSection = ({setSelectedPage}: HomeProps) => {
           </div>
         </div>
         <div id="square" className="flex lg:w-1/2 justify-center items-start">
-          <Image id="image" src="/selfImage.png" alt="" width={400}  height={400} className="drop-shadow-3xl"/>
+          <Image id="image" src="/selfImage.png" alt="" width={300}  height={400} className="drop-shadow-3xl"/>
         </div>
       </div>
     </section>
