@@ -5,6 +5,7 @@ specifiers:
   '@sendgrid/mail': ^7.7.0
   '@types/node': 18.14.0
   '@types/react': 18.0.28
+  '@types/react-anchor-link-smooth-scroll': ^1.0.2
   '@types/react-dom': 18.0.11
   '@types/react-scroll': ^1.8.6
   autoprefixer: ^10.4.13
@@ -14,6 +15,7 @@ specifiers:
   next-themes: ^0.2.1
   postcss: ^8.4.21
   react: 18.2.0
+  react-anchor-link-smooth-scroll: ^1.0.12
   react-dom: 18.2.0
   react-icons: ^4.7.1
   react-scroll: ^1.8.9
@@ -31,12 +33,14 @@ dependencies:
   next: 13.1.6_biqbaboplfbrettd7655fr4n2y
   next-themes: 0.2.1_3vryta7zmbcsw4rrqf4axjqggm
   react: 18.2.0
+  react-anchor-link-smooth-scroll: 1.0.12
   react-dom: 18.2.0_react@18.2.0
   react-icons: 4.7.1_react@18.2.0
   react-scroll: 1.8.9_biqbaboplfbrettd7655fr4n2y
   typescript: 4.9.5
 
 devDependencies:
+  '@types/react-anchor-link-smooth-scroll': 1.0.2
   '@types/react-scroll': 1.8.6
   autoprefixer: 10.4.13_postcss@8.4.21
   postcss: 8.4.21
@@ -296,6 +300,12 @@ packages:
 
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
+
+  /@types/react-anchor-link-smooth-scroll/1.0.2:
+    resolution: {integrity: sha512-ZemNS6WzQN8KA4w0sy5N86qJ55Ft7OnIDGH6QIHe0LL27xkZpNINMNZGR0DacIVPU66+JrbDqi1cKms9qhcPNQ==}
+    dependencies:
+      '@types/react': 18.0.28
+    dev: true
 
   /@types/react-dom/18.0.11:
     resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
@@ -2084,6 +2094,10 @@ packages:
     resolution: {integrity: sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==}
     engines: {node: '>=10'}
     dev: true
+
+  /react-anchor-link-smooth-scroll/1.0.12:
+    resolution: {integrity: sha512-aaY+9X0yh8YnC0jBfoTKpsiCLdO/Y6pCltww+VB+NnTBPDOvnIdnp1AlazajsDitc1j+cVSQ+yNtaVeTIMQbxw==}
+    dev: false
 
   /react-dom/18.2.0_react@18.2.0:
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}

@@ -6,22 +6,9 @@
   @apply bg-gray-800 text-zinc-100;
 }
 
-#image {
-  background-image: url('/blob3.png');
-  background-repeat: no-repeat;
-  background-size: 600px;
-  background-position:70% -10%;
+.light {
+  @apply bg-gradient-to-r from-green-100 to-blue-200 text-gray-800;
 }
-
-
-@media(max-width: 768px) {
-  #image {
-    background-image: url('/blob3.png');
-    background-size: 400px;
-    background-position:70% 0%;
-  }
-}
-
 
 .curve {
   position: absolute;
@@ -87,3 +74,4 @@ menu {
   margin: 0;
   padding: 0;
 }
+

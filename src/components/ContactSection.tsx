@@ -1,5 +1,6 @@
 'use client'
 import { FormEvent, useState } from "react";
+import { SectionEnum } from "./types";
 
 export const ContactSection = () => {
   const [fullname, setFullname] = useState("");
@@ -82,7 +83,7 @@ export const ContactSection = () => {
   };
 
   return (
-    <section id="contact"className="relative flex flex-col items-center justify-center min-h-full">
+    <section id={SectionEnum.CONTACT} className="relative flex flex-col items-center justify-center min-h-full">
       <div className="flex flex-col items-center mt-36 justify-center">
         <h2 className="max-w-md text-4xl font-bold items-center justify-center lg:text-left">Contact</h2>
         <div className="container flex flex-col mb-36 mt-16 justify-center items-center space-y-12 lg:space-y-0 lg:flex-row">
@@ -96,7 +97,7 @@ export const ContactSection = () => {
                 value={fullname}
                 onChange={(e) => {setFullname(e.target.value);}} 
                 required 
-                className="bg-transparent placeholder-cyan-800 dark:placeholder-zinc-400 mb-4 mt-8 rounded-2xl border-cyan-300 border-2 p-4 focus:outline-none font-light text-cyan-800 dark:text-white text-md focus:placeholder-transparent focus:border-cyan-600 focus:dark:placeholder-transparent" />
+                className="bg-transparent placeholder-cyan-800 dark:placeholder-zinc-400 mb-4 mt-8 rounded-2xl border-cyan-800 dark:border-cyan-300 border-2 p-4 focus:outline-none font-light text-cyan-800 dark:text-white text-md focus:placeholder-transparent focus:border-cyan-600 focus:dark:placeholder-transparent" />
               <input 
                 type="email" 
                 name="email" 
@@ -104,7 +105,7 @@ export const ContactSection = () => {
                 value={email}
                 onChange={(e) => {setEmail(e.target.value);}} 
                 required 
-                className="bg-transparent placeholder-cyan-800 dark:placeholder-zinc-400  border-2 rounded-2xl border-cyan-300 p-4 focus:outline-none text-cyan-800 dark:text-white text-md font-light focus:placeholder-transparent focus:border-cyan-900 focus:dark:placeholder-transparent" />
+                className="bg-transparent placeholder-cyan-800 dark:placeholder-zinc-400  border-2 rounded-2xl border-cyan-800 dark:border-cyan-300 p-4 focus:outline-none text-cyan-800 dark:text-white text-md font-light focus:placeholder-transparent focus:border-cyan-900 focus:dark:placeholder-transparent" />
               <input 
                 type="text" 
                 name="subject" 
@@ -112,14 +113,14 @@ export const ContactSection = () => {
                 value={subject}
                 onChange={(e) => {setSubject(e.target.value);}} 
                 required 
-                className="bg-transparent border-2 rounded-2xl placeholder-cyan-800 dark:placeholder-zinc-400 border-cyan-300 my-4 p-4 focus:outline-none text-cyan-800 dark:text-white text-md font-light focus:placeholder-transparent focus:border-cyan-600 focus:dark:placeholder-transparent" />
+                className="bg-transparent border-2 rounded-2xl placeholder-cyan-800 dark:placeholder-zinc-400 border-cyan-800 dark:border-cyan-300 my-4 p-4 focus:outline-none text-cyan-800 dark:text-white text-md font-light focus:placeholder-transparent focus:border-cyan-600 focus:dark:placeholder-transparent" />
               <textarea 
                 name="message" 
                 placeholder="Message" 
                 onChange={(e) => {setMessage(e.target.value);}} 
                 value={message}
                 required 
-                className="bg-transparent border-2 rounded-2xl placeholder-cyan-800 border-cyan-300 dark:placeholder-zinc-400 p-4 h-40 focus:outline-none font-light text-cyan-800 dark:text-white text-md focus:placeholder-transparent focus:border-cyan-600 focus:dark:placeholder-transparent">
+                className="bg-transparent border-2 rounded-2xl placeholder-cyan-800 border-cyan-800 dark:border-cyan-300 dark:placeholder-zinc-400 p-4 h-40 focus:outline-none font-light text-cyan-800 dark:text-white text-md focus:placeholder-transparent focus:border-cyan-600 focus:dark:placeholder-transparent">
               </textarea>
               <div className="flex flex-row items-center justify-start">
                 <button className="px-10 mt-8 py-2 bg-cyan-700 text-gray-50 font-light rounded-md text-lg flex flex-row items-center hover:opacity-80">

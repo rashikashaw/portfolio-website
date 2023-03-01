@@ -1,4 +1,6 @@
+'use client'
 import { ProjectCard } from './ProjectCards';
+import { SectionEnum } from './types';
 
 const projects = [
   {
@@ -29,7 +31,7 @@ const projects = [
 
 export const ProjectSection = () => {
   return (
-    <section id='projects' className="relative flex flex-col items-center min-h-full">
+    <section id={SectionEnum.PROJECTS} className="relative flex flex-col items-center min-h-full">
       <h2 className="max-w-md text-4xl font-bold text-center lg:text-left">Projects</h2>
       <div className="grid gap-x-8 ml-6 gap-y-8 sm:grid-cols-1  mt-28 mb-32 lg:grid-cols-2 xl:grid-cols-3">
         {projects.map((project, i) => (
@@ -42,6 +44,7 @@ export const ProjectSection = () => {
             link={project.link}
             width={'w-96'}
             githubLink={project.githubLink}
+            onCardClick={() => (project.link)}
           />
         ))}
       </div>

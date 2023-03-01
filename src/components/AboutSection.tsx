@@ -1,11 +1,12 @@
 import { Tags } from "./Tags";
+import { SectionEnum } from "./types";
 export const AboutSection = () => {
   const skills = ['Next.js', 'React', 'Typescript', 'Redux', 'Tailwind',' Nodejs', 'Express', 'REST API', 'MySql', 'MongoDB', 'Git', 'Jest'];
   return (
-    <section id="about" className="relative flex flex-col items-center min-h-full">
-      <div className="container flex flex-col-reverse mb-36  lg:mt-48 space-y-12 lg:space-y-0 lg:flex-row">
+    <section id={SectionEnum.ABOUT} className="relative flex flex-col items-center min-h-full">
+      <div className="container flex flex-col-reverse mb-36 mt-20 lg:mt-48 space-y-12 lg:space-y-0 lg:flex-row">
         {/* experince section */}
-        <div className="flex flex-col items-center mt-20 lg:mt-0 space-y-8 lg:w-1/2">
+        <div className="flex flex-col items-center lg:mt-0 space-y-8 lg:w-1/2">
           <div className="mb-8">
             <h2 className="max-w-md text-4xl font-bold text-center lg:text-left">Experience</h2>
           </div>
@@ -26,7 +27,7 @@ export const AboutSection = () => {
                 Frontend Developer
               </h3>
               <div className="my-3">
-                <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-700">Dev Launchers</h2>
+                <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-700">Dev Launchers</h2>
                 <h3 className="text-zinc-500">04/2022 - 09/2022 (6 months)</h3>
               </div>
               <ul className="text-darkGrayishBlue">
@@ -55,7 +56,7 @@ export const AboutSection = () => {
                 Product Owner
               </h3>
               <div className="my-3">
-                <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-700">Dev Launchers</h2>
+                <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-700">Dev Launchers</h2>
                 <h3 className="text-zinc-500">09/2021 - 03/2022 (6 months)</h3>
               </div>
               <ul className="text-darkGrayishBlue">
@@ -83,7 +84,7 @@ export const AboutSection = () => {
                 Business Analyst
               </h3>
               <div className="my-3">
-                <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-700">Promena LLP</h2>
+                <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-700">Promena LLP</h2>
                 <h3 className="text-zinc-500">04/2020 - 04/2021 (1 year)</h3>
               </div>
               <ul className="text-darkGrayishBlue">

@@ -41,6 +41,9 @@ module.exports = {
       },
       weight: {
         '128': '560px',
+      },
+      margin: {
+        '128px': '128px',
       }
     },
   },

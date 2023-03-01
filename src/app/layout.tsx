@@ -1,6 +1,6 @@
 'use client';
 import './globals.css';
-import { Navbar } from '../components/Navbar';
+import { Navbar } from '../components/Navbar/Navbar';
 import { Shadows_Into_Light, Roboto } from '@next/font/google';
 import { ThemeProvider } from 'next-themes';
 
@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${shadows_into_light.variable} ${roboto.variable} `}>
+    <html lang="en" className={`${shadows_into_light.variable} ${roboto.variable} scroll-smooth`} style={{scrollBehavior:'smooth'}}>
       {/*
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
@@ -29,7 +29,6 @@ export default function RootLayout({
       <head />
       <body>
         <ThemeProvider enableSystem={true} attribute="class">
-          <Navbar />
           {children}
         </ThemeProvider>
       </body>
