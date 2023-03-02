@@ -8,11 +8,15 @@ type Props = {
 };
 
 export const NavbarOptions = ({ selectedPage, setSelectedPage }: Props) => {
+  enum SectionEnum {
+    ABOUT = 'About',
+    PROJECTS = 'Projects',
+    CONTACT = 'Contact',
+  }
   return (
     <>
       {Object.values(SectionEnum).map((section) => 
-        section === 'Home' ? 
-      (<></> ) : (
+       (
         <SectionLink 
           page={section}
           selectedPage={selectedPage}
