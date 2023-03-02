@@ -25,13 +25,13 @@ export const HeroSection = ({setSelectedPage}: HomeProps) => {
             </p>
             <div className="flex flex-row space-x-6 items-center justify-center lg:justify-start">
               <a href="https://github.com/rashikashaw" target="_blank" rel="noreferrer" className="flex justify-center items-center animate-bounce">
-                <Image src="/github-mark.png" width={30} height={30} alt={""} className="dark:bg-white rounded-full"/>
+                <Image src="/static/images/github-mark.png" width={30} height={30} alt={""} className="dark:bg-white rounded-full"/>
               </a>
               <a href="https://www.linkedin.com/in/rashika-shaw" target="_blank" rel="noreferrer" className="flex justify-center items-center animate-bounce">
-                <Image src="/linkedin.png" width={35} height={15} alt={""}/>
+                <Image src="/static/images/linkedin.png" width={35} height={15} alt={""}/>
               </a> 
               <a href="https://www.upwork.com/freelancers/~0199881779ff76d366" target="_blank" rel="noreferrer" className="flex justify-center items-center animate-bounce">
-                <Image src="/upwork.png" width={30} height={8} alt={""}/>
+                <Image src="/static/images/upwork.png" width={30} height={8} alt={""}/>
               </a> 
               </div>
             <div className="flex flex-col px-16 lg:px-0 lg:space-x-6 lg:flex-row lg:space-y-0 space-y-6 ">
@@ -46,7 +46,7 @@ export const HeroSection = ({setSelectedPage}: HomeProps) => {
           </div>
         </div>
         <div id="square" className="flex lg:w-1/2 lg:pl-16 justify-center items-start">
-          <Image id="image" src="/selfImage.png" alt="" width={300}  height={400} className="drop-shadow-3xl"/>
+          <Image id="image" src="/static/images/selfImage.png" alt="" width={300}  height={400} className="drop-shadow-3xl"/>
         </div>
       </div>
     </section>

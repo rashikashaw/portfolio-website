@@ -5,7 +5,7 @@ import { SectionEnum } from './types';
 const projects = [
   {
     headline: "Evo-Gym",
-    image: "/evoGym.png",
+    image: "/static/images/evoGym.png",
     summary: 'A simple fitness center static website deployed using Vercel.',
     tags: ['react', 'typescript', 'tailwind CSS', 'node', 'figma'],
     link: 'https://evo-gym.vercel.app/',
@@ -13,7 +13,7 @@ const projects = [
   },
   {
     headline: "Apple Redesign",
-    image: "/apple-redesign.png",
+    image: "/static/images/apple-redesign.png",
     summary: 'An apple store website redesigned and deployed using Vercel.',
     tags: ['next,js', 'typescript', 'tailwind CSS', 'node', 'figma', 'headless CMS', 'redux', 'stripe'],
     link: 'https://portfolio-apple-redesign.vercel.app/',
@@ -21,7 +21,7 @@ const projects = [
   },
   {
     headline: "Component Storybook",
-    image: "/storybook.png",
+    image: "/static/images/storybook.png",
     summary: 'Storybook for shared components, hooks, design system and helper utilites. Hosted using Vercel',
     tags: ['react', 'typescript', 'node'],
     link: 'https://portfolio-component-stories.vercel.app',

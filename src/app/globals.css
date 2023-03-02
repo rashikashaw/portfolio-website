@@ -12,7 +12,7 @@
 
 
 #heroContainer{
-  background-image: url('/imageBg.png');
+  background-image: url('/static/images/imageBg.png');
   background-repeat: no-repeat;
   background-size: 690px;
   background-position: 100% 20%;
@@ -20,8 +20,8 @@
 
 
 @media (max-width: 976px) {
-  #heroContainer{
-    background-image: url('/imageBg.png');
+  #heroContainer {
+    background-image: url('/static/images/imageBg.png');
     background-repeat: no-repeat;
     background-size: 760px;
     background-position: 50% 180%;
@@ -30,7 +30,7 @@
 
 @media (max-width: 760px) {
   #heroContainer{
-    background-image: url('/imageBg.png');
+    background-image: url('/static/images/imageBg.png');
     background-repeat: no-repeat;
     background-size: 700px;
     background-position: 50% 180%;
@@ -38,7 +38,7 @@
 }
 @media (max-width: 480px) {
   #heroContainer{
-    background-image: url('/imageBg.png');
+    background-image: url('/static/images/imageBg.png');
     background-repeat: no-repeat;
     background-size: 680px;
     background-position: 50% 150%;

@@ -5,11 +5,6 @@ const nextConfig = {
     fontLoaders: [
       { loader: '@next/font/google', options: { subsets: ['latin'] } },
     ],
-    images: {
-      domains: [
-        'https://rashikashaw.vercel.app',
-      ]
-    },
   },
 };
 

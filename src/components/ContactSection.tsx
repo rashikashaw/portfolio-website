@@ -1,7 +1,7 @@
 'use client'
 import { FormEvent, useState } from "react";
 import { SectionEnum } from "./types";
-
+import Image from "next/image";
 export const ContactSection = () => {
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
@@ -139,7 +139,7 @@ export const ContactSection = () => {
             </form>
           </div>
           <div className="flex justify-center items-center my-36 space-y-10 lg:px-20 lg:w-1/2">
-            <img src="/contact.png" alt="" />
+            <Image src="/static/images/contact.png" width={900} height={900} alt="" />
           </div>
         </div>  
       </div>
