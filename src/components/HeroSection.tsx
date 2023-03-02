@@ -46,6 +46,9 @@ export const HeroSection = ({setSelectedPage}: HomeProps) => {
           </div>
         </div>
         <div id="square" className="flex lg:w-1/2 lg:pl-16 justify-center items-start">
+          <div className="absolute -z-10 pr-10">
+            <Image src="/static/images/imagebg.png" width={600} height={300} alt=""/>
+          </div>
           <Image id="image" src="/static/images/selfImage.png" alt="" width={300}  height={400} className="drop-shadow-3xl"/>
         </div>
       </div>
