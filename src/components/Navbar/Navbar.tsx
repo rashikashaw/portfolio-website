@@ -47,12 +47,12 @@ export const Navbar = (props: Props) => {
             
           </div>
           { currTheme === 'dark' && (
-            <button onClick={() => setTheme('light')} className=" px-4 cursor-pointer">
+            <button onClick={() => setTheme('light')} className="px-4 cursor-pointer">
               <RiSunLine size={25}/>
             </button>
           )} 
           {currTheme === 'light' &&  (
-            <button onClick={() => setTheme('dark')} className="cursor-pointer">
+            <button onClick={() => setTheme('dark')} className="px-4 cursor-pointer">
               <RiMoonFill size={25}/>
             </button>
           )}

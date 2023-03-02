@@ -28,7 +28,7 @@ export const AboutSection = () => {
               </h3>
               <div className="my-3">
                 <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-700">Dev Launchers</h2>
-                <h3 className="text-zinc-500">04/2022 - 09/2022 (6 months)</h3>
+                <h3 className="text-zinc-500">09/2022 - Present (6 months)</h3>
               </div>
               <ul className="text-darkGrayishBlue">
                 <li>Developing features to enhance the user experience.</li>
@@ -57,7 +57,7 @@ export const AboutSection = () => {
               </h3>
               <div className="my-3">
                 <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-700">Dev Launchers</h2>
-                <h3 className="text-zinc-500">09/2021 - 03/2022 (6 months)</h3>
+                <h3 className="text-zinc-500">09/2021 - 08/2022 (1 year)</h3>
               </div>
               <ul className="text-darkGrayishBlue">
                 <li>Created mind-maps, mock-ups and wireframes.</li>

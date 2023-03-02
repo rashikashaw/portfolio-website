@@ -12,8 +12,8 @@ export const SectionLink = (props: SectionLinkProps) => {
 
   return (
     <AnchorLink
-      className={`${selectedPage === page ? 'text-primary-500' : ''}
-        hover:text-primary-300 transition duration-500
+      className={`${selectedPage === page ? 'text-cyan-500' : ''}
+        hover:text-cyan-900 dark:hover:text-cyan-800 hover:drop-shadow-3xl transition duration-300
       `}
       href={`#${page}`}
       onClick={() => setSelectedPage(page)}
