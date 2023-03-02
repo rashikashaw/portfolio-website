@@ -1,3 +1,4 @@
+import Home from "@/app/page";
 import { SectionLink } from "../SectionLink"
 import { SectionEnum } from "../types"
 
@@ -9,7 +10,9 @@ type Props = {
 export const NavbarOptions = ({ selectedPage, setSelectedPage }: Props) => {
   return (
     <>
-      {Object.values(SectionEnum).map(section => (
+      {Object.values(SectionEnum).map((section) => 
+        section === 'Home' ? 
+      (<></> ) : (
         <SectionLink 
           page={section}
           selectedPage={selectedPage}

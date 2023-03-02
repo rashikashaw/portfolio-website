@@ -9,7 +9,7 @@ type HomeProps = {
 export const HeroSection = ({setSelectedPage}: HomeProps) => {
   return (
     <section id={SectionEnum.HOME} className="relative flex flex-col h-full">
-      <div id="heroContainer" className="container flex flex-col space-y-10 items-center justify-center mt-32 lg:my-40 mx-auto lg:space-y-0 lg:flex-row">
+      <div id="heroContainer" className="container flex flex-col space-y-10 items-center justify-center lg:my-28 mx-auto lg:space-y-0 lg:flex-row">
         <div className="flex flex-col justify-center items-end p-6 space-y-12 md:w-1/2">
           <div className="space-y-8">
             <div className="space-y-2 px-16 lg:px-0">
