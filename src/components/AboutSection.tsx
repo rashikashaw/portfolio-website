@@ -5,7 +5,7 @@ import Image from "next/image";
 export const AboutSection = () => {
   const skills = ['Next.js', 'React', 'Typescript', 'Redux', 'Tailwind',' Nodejs', 'Express', 'REST API', 'MySql', 'MongoDB', 'Git', 'Jest'];
   return (
-    <section id={SectionEnum.ABOUT} className="relative flex flex-col items-center min-h-full">
+    <section id={SectionEnum.ABOUT} className="relative flex flex-col items-center mx-10 min-h-full">
       <div className="container flex flex-col-reverse justify-center mb-36 mt-36 space-y-12 lg:space-y-0 lg:flex-row">
         {/* experince section */}
         <div className="flex flex-col items-center mt-20 lg:mt-0 space-y-8 lg:w-1/2">
@@ -100,10 +100,10 @@ export const AboutSection = () => {
               <Tags value={skill} key={i}/>
             ))}
           </div>
-          <div className="m-8">
-            <Image id="image" src="/static/images/blobanimation.svg" alt="" width={600}  height={600} className="absolute top-0 left-0 opacity-20"/>
-            <Image id="image" src="/static/images/blobanimation.svg" alt="" width={800}  height={600} className="absolute bottom-0 right-0 opacity-30" />
-            <Image id="image" src="/static/images/blobanimation.svg" alt="" width={800}  height={600} className="absolute bottom-50 left-30 opacity-30" />
+          <div className="md:m-8">
+            <Image id="image" src="/static/images/blobanimation.svg" alt="" width={600}  height={600} className="fixed md:absolute top-0 right--20 md:top-0 md:left-0 opacity-20"/>
+            <Image id="image" src="/static/images/blobanimation.svg" alt="" width={800}  height={600} className="fixed md:absolute md:bottom-0 md:right-0 opacity-30" />
+            <Image id="image" src="/static/images/blobanimation.svg" alt="" width={300}  height={400} className="fixed md:absolute md:bottom-50 md:left-30 opacity-30" />
           </div>
         </div>
       </div>
