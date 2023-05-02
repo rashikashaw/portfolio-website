@@ -19,9 +19,7 @@ export const HeroSection = ({setSelectedPage}: HomeProps) => {
               </h1>
             </div>
             <p className="max-w-lg text-center px-16 lg:px-0 dark-text-pink text-zinc-500 dark:text-zinc-400 lg:text-left">
-              A Frontend Developer based in Toronto, Canada.
-              My expertise is in building web applications,
-              landing pages and anything in between.
+              A Frontend Developer based in Toronto, Canada with 2 years of experience in programming, web development, testing and anything in between.
             </p>
             <div className="flex flex-row space-x-6 items-center justify-center lg:justify-start">
               <a href="https://github.com/rashikashaw" target="_blank" rel="noreferrer" className="flex justify-center items-center animate-bounce">
@@ -35,7 +33,7 @@ export const HeroSection = ({setSelectedPage}: HomeProps) => {
               </a> 
               </div>
             <div className="flex flex-col px-16 lg:px-0 lg:space-x-6 lg:flex-row lg:space-y-0 space-y-6 ">
-              <a href="/static/images/rashikaResume.pdf" download className="flex p-3 px-6 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-md items-center justify-center baseline hover:drop-shadow-xl">Download CV</a>
+              <a href="/static/images/Resume-Rashika-Shaw.pdf" download className="flex p-3 px-6 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-md items-center justify-center baseline hover:drop-shadow-xl">Download CV</a>
               <AnchorLink 
                 onClick={() => setSelectedPage(SectionEnum.CONTACT)}
                 href={`#${SectionEnum.CONTACT}`} 
