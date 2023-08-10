@@ -20,43 +20,31 @@ export const AboutSection = () => {
                   01
                 </div>
                 <h3 className="text-base font-bold lg:mb-4 lg:hidden">
-                  Frontend Developer
+                  Full-Stack Developer
                 </h3>
               </div>
             </div>
             <div>
               <h3 className="hidden mb-4 text-lg font-bold lg:block">
-                Frontend Developer
+                Full-Stack Developer
               </h3>
               <div className="my-3">
-                <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-700">Dev Launchers</h2>
-                <h3 className="text-zinc-500">Jul 2022 - Present (11 months)</h3>
+                <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-700">Mxpert</h2>
+                <h3 className="text-zinc-500 py-2"> St. John's, NL</h3>
+                <h3 className="text-zinc-500">Jun 2023 - Present (3 months)</h3>
               </div>
               <ul className="flex list-outside list-disc flex-col text-darkGrayishBlue">
                 <li className="m-2">
-                  Implemented and deployed a platform with a team of 6 that streamlined the process of connecting entrepreneurs with relevant professionals; saved 15+ hours per week in total search and connection time, resulting in increased lead generation by 30%.
+                Used NodeJS, ORM and SQL/No-SQL to develop and manage databases.
                 </li>
                 <li className="m-2">
-                  Optimized the teams workflow by introducing a Kanban board and holding daily stand-up meetings; improved task completion rates by 35%. 
-                </li>
+                  Reviewed code, debugged problems, and corrected issues.</li>
                 <li className="m-2">
-                  Developed responsive UI components using React, Next.js and Redux with Typescript for a web application that enhanced website loading speed by 25% and user engagement by 30%.
-                </li>
+                  Build key features of the product. React for frontend, Node for backend and Mongo-DB for database.</li>
                 <li className="m-2">
-                  Streamlined project development by incorporating Redux and Tailwindcss, resulting in a 35% increase in code maintainability and boost developer productivity.
-                </li>
+                  Features build helped in retaining customers and raised usage to 70%.</li>
                 <li className="m-2">
-                  Built a notification system that reduced churn rate by 20% as entrepreneurs where regularly notified about projects on-going process.
-                </li>
-                <li className="m-2">
-                  Conducted comprehensive analysis of website performance; identified and fixed 50+ bottlenecks including broken links, oversized images and server errors; improved overall website speed by 70%.
-                </li>
-                <li className="m-2">
-                  Created a comprehensive library of reusable components and streamlined the development process by 20%; led to a 30% reduction in project delivery time.
-                </li>
-                <li className="m-2">
-                  Conducted comprehensive usability tests with 10 users, identified 30+ usability issues and recommended improvements that increased conversion rate by 15%.
-                </li>
+                  Boosted network, system and data availability and integrity through preventive maintenance and upgrades.</li>
               </ul>
             </div>
           </div>
@@ -77,15 +65,79 @@ export const AboutSection = () => {
                 Frontend Developer
               </h3>
               <div className="my-3">
-                <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-700">Promena LLP</h2>
-                <h3 className="text-zinc-500">Jun 2021 - Jun 2022 (1 year)</h3>
+                <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-700">Dev Launchers</h2>
+                <h3 className="text-zinc-500 py-2">Austin, Texas</h3>
+                <h3 className="text-zinc-500">Jun 2022 - May 2023 (1 year)</h3>
               </div>
               <ul className="flex list-outside list-disc flex-col text-darkGrayishBlue">
-                <li className="m-2">Spearheaded in researching and collecting client requirements to develop web applications referring product design.</li>
-                <li className="m-2">Collaborated with 3 cross-functional teams to create a lawyer directory website; integrated user feedback to implement search filters which increased user satisfaction score by 20% and boosted retention rate by 15%.</li>
-                <li className="m-2">Developed an inventory management internal tool for a mid-size company to transform old book- keeping into an online application to save time and money in data entry and paperwork, increasing efficiency by 50%.</li>
-                <li className="m-2">Designed and implemented an authentication system for a clients web application using Node and React; boosted user trust by increasing data protection and reducing login time by 50%.</li>
-                <li className="m-2">Implemented comprehensive automated testing suite using Jest, which reduced regression testing time by 60% and decreased bug reports by 40%.</li>
+                <li className="m-2">
+                  Implemented and deployed a platform with a team of 6 that streamlined the process of connecting entrepreneurs with relevant professionals; saved 15+ hours per week in total search and connection time, resulting in increased lead generation by 30%.
+                </li>
+                <li className="m-2">
+                  Created a comprehensive library of reusable components and streamlined the development process by 20%; led to a 30% reduction in project delivery time.
+                  Build key features of the product. React for frontend, Node for backend and Mongo-DB for database.</li>
+                <li className="m-2">
+                Conducted comprehensive usability tests with 10 users, identified 30+ usability issues and recommended improvements that increased conversion rate by 15%.</li>
+              </ul>
+            </div>
+          </div>
+          {/* list item 3 */}
+          <div className="flex flex-col space-y-3 lg:space-x-6 lg:space-y-0 lg:flex-row">
+            <div className="rounded-full bg-seaGreen lg:bg-transparent">
+              <div className="flex items-center space-x-2">
+                <div className="px-4 py-2 text-white rounded-full lg:py-1 bg-seaGreen">
+                  03
+                </div>
+                <h3 className="text-base font-bold lg:mb-4 lg:hidden">
+                  Business Analyst
+                </h3>
+              </div>
+            </div>
+            <div>
+              <h3 className="hidden mb-4 text-lg font-bold lg:block">
+                Business Analyst
+              </h3>
+              <div className="my-3">
+                <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-700">Dev Launchers</h2>
+                <h3 className="text-zinc-500 py-2">Austin, Texas</h3>
+                <h3 className="text-zinc-500">Sep 2021 - May 2022 (9 months)</h3>
+              </div>
+              <ul className="flex list-outside list-disc flex-col text-darkGrayishBlue">
+                <li className="m-2">Developed business plans, determine Key Performance Indicator (KPI) and coordinate the measurement result.</li>
+                <li className="m-2">Analyzed quantitative and qualitative data to uncover competition and industry information to drive the business revenue.</li>
+                <li className="m-2">Planned and documented key features of the application. </li>
+                <li className="m-2">Held usability tests with existing users and planned changes according to the feedback provided.</li>
+              </ul>
+            </div>
+          </div>
+          {/* list item 4 */}
+          <div className="flex flex-col space-y-3 lg:space-x-6 lg:space-y-0 lg:flex-row">
+            <div className="rounded-full bg-seaGreen lg:bg-transparent">
+              <div className="flex items-center space-x-2">
+                <div className="px-4 py-2 text-white rounded-full lg:py-1 bg-seaGreen">
+                  04
+                </div>
+                <h3 className="text-base font-bold lg:mb-4 lg:hidden">
+                  Business Analyst (internship)
+                </h3>
+              </div>
+            </div>
+            <div>
+              <h3 className="hidden mb-4 text-lg font-bold lg:block">
+                Business Analyst (internship)
+              </h3>
+              <div className="my-3">
+                <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-700">Promena LLP</h2>
+                <h3 className="text-zinc-500 py-2">Bengaluru, Karnataka</h3>
+                <h3 className="text-zinc-500">Dec 2020 - Jun 2021 (7 months)</h3>
+              </div>
+              <ul className="flex list-outside list-disc flex-col text-darkGrayishBlue">
+                <li className="m-2"> Documented clients requirement.</li>
+                <li className="m-2">Used Miro for creating product roadmap and documenting user stories.</li>
+                <li className="m-2">Used JIRA for sprint planning.</li>
+                <li className="m-2">Communicated with development and UX team. Generated business intelligence reports to inform strategic decision-making.</li>
+                <li className="m-2">Collaborated with stakeholders to identify business needs and data sources.</li>
+                <li className="m-2">Performed gap analysis to identify areas of improvement.</li>
               </ul>
             </div>
           </div>
