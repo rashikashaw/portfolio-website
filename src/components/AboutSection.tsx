@@ -31,7 +31,7 @@ export const AboutSection = () => {
               <div className="my-3">
                 <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-700">Mxpert</h2>
                 <h3 className="text-zinc-500 py-2"> St. Johns, NL</h3>
-                <h3 className="text-zinc-500">Jun 2023 - Present (3 months)</h3>
+                <h3 className="text-zinc-500">Jun 2023 - Present (4 months)</h3>
               </div>
               <ul className="flex list-outside list-disc flex-col text-darkGrayishBlue">
                 <li className="m-2">
