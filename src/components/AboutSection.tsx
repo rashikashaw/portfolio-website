@@ -3,7 +3,7 @@ import { SectionEnum } from "./types";
 import Image from "next/image";
 
 export const AboutSection = () => {
-  const skills = ['Next.js', 'React', 'Typescript', 'Redux', 'Tailwind',' Nodejs', 'Express', 'REST API', 'MySql', 'MongoDB', 'Git', 'Jest'];
+  const skills = ['Next.js', 'React', 'Typescript', 'Tailwind',' Node.js', 'Express', 'REST API', 'MySql', 'MongoDB', 'Git', 'Jest', 'Postgres', 'Prisma',];
   return (
     <section id={SectionEnum.ABOUT} className="relative flex flex-col items-center mx-10 min-h-full">
       <div className="container flex flex-col-reverse justify-center mb-36 mt-36 space-y-12 lg:space-y-0 lg:flex-row">
