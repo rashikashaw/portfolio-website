@@ -34,7 +34,7 @@ export const AboutSection = () => {
                 <h3 className="text-zinc-500">Jun 2023 - Present</h3>
               </div>
               <ul className="flex list-outside list-disc flex-col text-darkGrayishBlue">
-                <li className="m-2">Refactoredthecompany’sbackendfromMongoDBwithJavaScript to TypeScript, Node.js, and PostgreSQL using Prisma ORM.</li>
+                <li className="m-2">Refactored the companys backend from MongoDB with JavaScript to TypeScript, Node.js, and PostgreSQL using Prisma ORM.</li>
                 <li className="m-2">Designed and implemented relational databases hosted on Amazon RDS.</li>
                 <li className="m-2">Developed REST APIs for efficient data handling and seamless integration across the application.</li>
                 <li className="m-2">Built the frontend with React and TypeScript, creating reusable, scalable components using Shadcn for a seamless user experience.</li>
