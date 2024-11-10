@@ -94,11 +94,6 @@ export const AboutSection = () => {
               <Tags value={skill} key={i}/>
             ))}
           </div>
-          <div className="md:m-8">
-            <Image id="image" src="/static/images/blobanimation.svg" alt="" width={600}  height={600} className="fixed md:absolute top-0 right--20 md:top-0 md:left-0 opacity-20"/>
-            <Image id="image" src="/static/images/blobanimation.svg" alt="" width={800}  height={600} className="fixed md:absolute md:bottom-0 md:right-0 opacity-30" />
-            <Image id="image" src="/static/images/blobanimation.svg" alt="" width={300}  height={400} className="fixed md:absolute md:bottom-50 md:left-30 opacity-30" />
-          </div>
         </div>
       </div>
     </section>
